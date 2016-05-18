@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zachary.harveysexcellentadventure2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TitleScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainMenu" />
+        <activity android:name=".Episode1Menu" />
+        <activity android:name=".Episode2Menu" />
+        <activity android:name=".Episode3Menu" />
+        <activity android:name=".Ep1MainActivity" />
+        <activity android:name=".Ep2MainActivity" />
+        <activity android:name=".Ep3MainActivity" />
+        <activity android:name=".GameOver" />
+        <activity android:name=".Ep1Highscore" />
+        <activity android:name=".Ep2Highscore" />
+        <activity android:name=".Ep3Highscore"/>
+    </application>
+
+</manifest>
